@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wednesday assignment</title>
+
+    <style>
+        #submit{
+            margin:18em;
+            background-color:rgb(228, 168, 150);
+            margin-top:3em;
+        }
+    .main{
+        background-color:rgb(224, 197, 213)
+    }
+    .body{
+        background-color:rgb(193, 215, 235);
+
+    }
+    </style>
+
+    <h2 style="text-align:center";>ASSESSMENT-2</h2>
+</head>
+
+<body class="body">
+    <main class="main">
+        In this html document, i will be practicing the following ;
+        <ul>
+            <li>Lists Types</li>
+            <li>Form</li>
+            <li>input Types</li>
+            <li>label</li>
+            <li>Button Types</li>
+
+        </ul>
+    </main>
+    <div>
+        <section>
+            <h2>LIST</h2>
+            List is of three types. we have the ordered list, unordered list and description list, they are repesented
+            by (ol)
+            (ul) and (dl)) respectively. <br> Examples <br>
+
+            1. Ordered List:
+            ordered list can be repesented numerically,alphabetically(uppercase or lowercase) and also with roman
+            numerically(uppercase or lowercase). <br>
+            <ol type="1">
+                <li>Name</li>
+                <li>Age</li>
+                <li>Class</li>
+            </ol>
+            <ol type="A">
+                <li>Name</li>
+                <li>Age</li>
+                <li>Class</li>
+            </ol>
+            <ol type="a">
+                <li>Name</li>
+                <li>Age</li>
+                <li>Class</li>
+            </ol>
+            <ol type="I">
+                <li>Name</li>
+                <li>Age</li>
+                <li>Class</li>
+            </ol>
+            <ol type="i">
+                <li>Name</li>
+                <li>Age</li>
+                <li>Class</li>
+            </ol>
+            2. Unordered List
+            <ul>
+                <li>Name</li>
+                <li>Age</li>
+                <li>Class</li>
+            </ul>
+            3. Descriptive List: basically used to describe a terms being listed.
+            <dl>
+                <dt>Name</dt>
+                <dd>Ezeaku Dorathy Obiageli</dd>
+                <dt>Age</dt>
+                <dd>25</dd>
+                <dt>Class</dt>
+                <dd>Front-end programming</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Input</h2> <br> Input tag just as the name implies, is where a user inputs his/her information.
+            <br>Types <br>
+            a. single-line text input field
+            <input type="text" name=""> <br><br>
+            b. Radio: Displays a radio button (for selecting one of many choices)<br>
+            <input type="radio" name="same" value="Name"> Name <br>
+            <input type="radio" name="same" value="Age"> Age <br>
+            <input type="radio" name="same" value="Class">Class <br><br>
+            <!-- To select a button at a time, set all (name"") in the input tag as the same -->
+            c. Checkbok: Displays a checkbox (for selecting zero or more of many choices) <br>
+            <br><input type="checkbox" name="Name" value=""> Name<br>
+
+            <input type="checkbox" name="Age" value=""> Age<br>
+
+            <input type="checkbox" name="Class" value="">Class <br> <br>
+            d. Submit Button: Displays a submit button (for submitting the form)<br>
+            <input type="submit" value="submit"> <br> <br>
+            e. Clickable button: Displays a clickable button <br>
+            <input type="button" value="click here">   
+        </section>
+        <section>
+            <h2>Label</h2> This is used to label an input.<br> <br>
+            Examples: <br> <br>
+            1. <Label for="Name"> Name: </Label>
+            <input type="text"> <br> <br>
+            2. <label for="radio-label">This a label for the radio button:</label>
+            <br> <input type="radio" name="radio-label"> <br> <br>
+            3. <label for="checkbok">This is a label for the checkbox button:</label><br>
+            <input type="checkbox" name="Class" value=""> <br><br>
+4. <label for="submit"> This a label for the submit button:</label> <br>
+<input type="submit" value="submit"> <br> <br>
+5. <label for="button"> This a label for the clickable button:</label> <br>
+<input type="button" value="click here">
+
+
+            <section>
+                <h2>Form</h2>
+                <form action="#">
+<label for="Name"> <b>Name;</b> surname first:</label><br>
+<input type="text" name=""> <br><br>
+<b>Gender</b> <br>
+<label for="radio" name="radio">Male</label> 
+<input type="radio" name="radio"> <br>
+<label for="radio" name="radio">Female</label> 
+<input type="radio" name="radio"> <br>
+<label for="radio" name="radio">Other</label> 
+<input type="radio" name="radio"> <br>
+<br> <label for="checkbox"><b>Courses offered</b></label> <br>
+<input type="checkbox" name=""> Mth 101 <br>
+<input type="checkbox" name=""> Eng 101 <br>
+<input type="checkbox" name=""> Bio 101 <br>
+<input type="checkbox" name=""> Frn 101 <br>
+<input type="checkbox" name=""> Phy 101 <br>
+<input type="checkbox" name=""> Chem 101 <br>
+<input type="checkbox" name=""> Eng 103 <br>
+<input type="checkbox" name=""> Gly 101 <br>
+<input type="checkbox" name=""> Csc 101 <br>
+
+<input type="submit" name="submit" value="click to submit" id="submit">
+                </form>
+            </section>
+            
+    </div>
+
+</body>
+
+</html>
